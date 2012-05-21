@@ -1,0 +1,73 @@
+/* 
+    Document   : CSS
+    Created on : 08-May-2012
+    Author     : Afis Ajibike | TreatDigital.com
+    Description: Treat Digital - Cookies Dialog - EU Directive
+*/
+
+#bar, #bar p {
+    font: 13px "Helvetica Neue",sans-serif;
+}
+
+.bar-normal {
+    bottom: 0;
+    position: fixed;
+    right: 10px;
+    z-index: 999999;
+}
+
+#bar a.cbar span {
+    background: url("wpcom-admin-bar-icons.png") no-repeat scroll 0 -77px transparent;
+    padding-left: 19px;
+}
+
+#bar a.cbar {
+    border-radius: 2px 2px 0 0;
+}
+
+#bar a:hover span, #bar a.cbar.open span {
+    background-position: 0 -117px;
+    color: #FFFFFF !important;
+}
+
+#bar a.cbar {
+    background-color: #464646;
+    background-image: -moz-linear-gradient(center bottom , #3F3F3F, #464646 5px);
+    border: 0 none;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.2);
+    color: #CCCCCC;
+    display: block;
+    font: 13px/28px "Helvetica Neue",sans-serif;
+    letter-spacing: normal;
+    outline-style: none;
+    outline-width: 0;
+    overflow: hidden;
+    padding: 0 10px 0 8px;
+    text-decoration: none !important;
+    text-shadow: 0 -1px 0 #444444;
+	margin-left: 20px;
+	float:right;
+}
+
+
+#bar a, #bar h2 a:hover, #bar h3 a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#cdes {
+    background: none repeat scroll 0 0 #464646;
+    border-radius: 2px 0 0 0;
+    color: #FFFFFF;
+    padding: 15px;
+    width: 200px;
+	display:none;
+	clear:right;
+	float:right;
+}
+
+#bar button {
+    padding: 0 1em;
+    width: auto;  /* cancel margin fix for other browsers */
+    overflow: visible;
+}

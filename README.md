@@ -28,12 +28,13 @@ Installation:
  <script src="cookiedialog.js"></script>
 ```
 the above will go in your ```<head>``` tag of the main template(s). Don’t forget to include after the jQuery library.
-IMPORTANT: DO NOT FORGET TO CHANGE COOKIE NAME in cookiedialog.js FROM 'Treat_Digital_cookiesAccepted' TO CLIENT'S NAME - 'Client_Name_cookiesAccepted'.
+<br/>
+<strong>IMPORTANT: DO NOT FORGET TO CHANGE COOKIE NAME in cookiedialog.js FROM 'Treat_Digital_cookiesAccepted' TO CLIENT'S NAME - 'Client_Name_cookiesAccepted'.</strong>
 
 HTML
 =================
 This is the dialogue box to alert the user of the new Cookies page. See cookies-dialog.html.
-Copy the dialog box html and paste just before the </body> tag.
+Copy the dialog box html and paste just before the ```</body>``` tag.
 
 Author
 =================

@@ -19,6 +19,7 @@ Copy the CSS in style.css to the main css file of site you are working on.
 JS
 =================
 <strong>jquery.cookie.js</strong> is a simple, lightweight jQuery plugin for reading, writing and deleting cookies.
+<br/>
 <strong>cookiedialog.js</strong> is a simple plugin that will set a cookie when a user clicks the button to accept the use of cookies. 
 It will check if the acceptance cookie have already been set for a website and remove the dialog box.
 Installation:
@@ -26,7 +27,7 @@ Installation:
  <script src="jquery.cookie.js"></script>
  <script src="cookiedialog.js"></script>
 ```
-the above will go in your ```javascript <head> ``` tag of the main template(s). Don’t forget to include after the jQuery library.
+the above will go in your ```<head>``` tag of the main template(s). Don’t forget to include after the jQuery library.
 IMPORTANT: DO NOT FORGET TO CHANGE COOKIE NAME in cookiedialog.js FROM 'Treat_Digital_cookiesAccepted' TO CLIENT'S NAME - 'Client_Name_cookiesAccepted'.
 
 HTML

@@ -7,8 +7,7 @@ This is a practical example of a non intrusive dialogue implementation.
 
 Use this plugin to gain consent through the use of a Dialogue box. This could be shown on the homepage or on each page where a visitor has not opted in to Cookies the site sets.
 
-INSTALLATION
-=================
+##INSTALLATION
 Code explained:
 =================
 

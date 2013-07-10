@@ -25,13 +25,13 @@ It will check if the acceptance cookie have already been set for a website and r
  <script src="jquery.cookie.js"></script>
  <script src="cookiedialog.js"></script>
 ```
-the above will go in your ```<head>``` tag of the main template(s). Don’t forget to include after the jQuery library.
+the above will go just before ```</body>``` tag of the main template(s). Don’t forget to include after the jQuery library.
 <br/>
 <strong>IMPORTANT: DO NOT FORGET TO CHANGE COOKIE NAME in cookiedialog.js FROM 'Treat_Digital_cookiesAccepted' TO CLIENT'S NAME - 'Client_Name_cookiesAccepted'.</strong>
 
 <h3>HTML</h3>
 This is the dialogue box to alert the user of the new Cookies page. See cookies-dialog.html.
-Copy the dialog box html and paste just before the ```</body>``` tag.
+Copy the dialog box html and paste before the ```</body>``` tag.
 
 <h3>Author</h3>
 Afis Ajibike
